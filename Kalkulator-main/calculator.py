@@ -7,9 +7,9 @@ DEFAULT_FONT_STYLE = ("Arial", 20)
 
 OFF_WHITE = "#DDDDDD"
 WHITE = "#fff2f4"
-WARNA = "#98DFD6"
+WARNA = "#D9ACF5"
 LIGHT_BLUE = "#98DFD6"
-LIGHT_GRAY = "#E5E0FF"
+LIGHT_GRAY = "#D9ACF5"
 LABEL_COLOR = "#cc4668"
 
 class Calculator:
@@ -17,7 +17,7 @@ class Calculator:
         self.window = tk.Tk()
         self.window.geometry("300x500")
         self.window.resizable(0, 0)
-        self.window.title("Calculator Refa")
+        self.window.title("Calculator Arina")
 
         self.total_expression = ""
         self.current_expression = ""
